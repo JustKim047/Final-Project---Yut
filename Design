@@ -1,0 +1,49 @@
+#Libraries used for program
+
+#Players choose name
+
+#Unfinished Pieces
+
+#Finished Pieces
+
+#Place the Yut board
+
+#Place Player1 and it's pieces at bottom 
+#Place Player2 and it's pieces at top
+
+#Set positions for each block of Yut board image
+
+#Make a list to store moves as players can throw more than once 
+
+#Give colours to each of stick values
+
+#Players throw the Yut sticks to determine who starts first
+#Find who's result has higher value
+
+#Create loop to move to next player everytime one's turn is over
+    #Output who's turn it is
+    #Throw Yut sticks by showing sides of the stick randomly
+    #Output the name of resulting move highlighted with it's colour
+    #Continue to allow player to throw again if it was Yut or Mo 
+        #Store moving values to list 
+        #Output the name of resulting move highlighted with it's colour
+    #Movement of pieces: Do this until list of moves is empty
+        #Allow player to select a piece
+        #Find where the selected piece can move to, and highlight the blocks using specified colours for each Yut value in list
+        #Move piece to where player selects
+        #When player moves piece, remove moved value from list
+        #Continue to check if piece can catch or piggyback
+            #If catch, delete caught piece from board and return it to player's pieces
+            #Then allow player who caught the piece to throw again
+            #Add value to list of moves
+            #If catch piggybacked pieces, delete caught piece from board and return pieces according to the number of pieces that were piggybacked
+            #Allow player who caught the piece to throw again according to the number of pieces that were piggybacked
+            #Add values to list of moves
+            #If piggyback, output x2 beside piece to combine
+            #If already piggybacked, output x3 beside piece to combine
+        #Once a piece goes through the endpoint, that piece returns to it's original position under player's name with colour changed to gold
+    #Check if all pieces of a player is gold
+    #Yes = Break
+    #No = Move to next player
+
+#GAME OVER: PLAYER# WINS: All pieces of a player went through the goal point
